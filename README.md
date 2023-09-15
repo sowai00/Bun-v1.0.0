@@ -9,3 +9,5 @@ exec /bin/zsh
 ```
 bun --version
 ```
+reference
+[Bun.sh](https://bun.sh/)
