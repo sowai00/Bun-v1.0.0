@@ -9,5 +9,7 @@ exec /bin/zsh
 ```
 bun --version
 ```
+```bun start```
 reference
+<b/>
 [Bun.sh](https://bun.sh/)
