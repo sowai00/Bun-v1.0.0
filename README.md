@@ -3,5 +3,9 @@ How to install bun in MacOS
 ```
 curl -fsSL https://bun.sh/install | bash
 ```
-<br />exec /bin/zsh 
-<br />bun --help 
+```
+exec /bin/zsh
+```
+```
+bun --version
+```
