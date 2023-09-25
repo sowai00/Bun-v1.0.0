@@ -10,6 +10,9 @@ exec /bin/zsh
 bun --version
 ```
 ```
+bun install
+```
+```
 bun start
 ```
 reference
