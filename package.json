@@ -1,5 +1,6 @@
 {
-  "name": "server",
+  "homepage":"https://sowai00.github.io/Bun-v1.0.0",
+  "name": "server(name of the website)",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
