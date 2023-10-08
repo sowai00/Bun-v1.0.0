@@ -19,3 +19,4 @@ const Name = () => {
 
 export default Name
 
+npm install gh-pages --save-dev
