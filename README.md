@@ -15,6 +15,15 @@ bun install
 ```
 bun start
 ```
+How to install bun in Microsoft(npm)
+```
+npm install -g bun 
+```
+How to install bun Docker
+```
+docker pull oven/bun
+docker run --rm --init --ulimit memlock=-1:-1 oven/bun
+``
 reference
 <br/>
 [Bun.sh](https://bun.sh/)
