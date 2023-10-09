@@ -6,6 +6,10 @@ micorsoft need open hyper v
 
 https://learn.microsoft.com/zh-tw/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
 
+build docker
+```
+docker build -t <imagename> .
+```
 list docker images
 ```
 docker image ls
