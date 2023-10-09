@@ -23,7 +23,7 @@ How to install bun Docker
 ```
 docker pull oven/bun
 docker run --rm --init --ulimit memlock=-1:-1 oven/bun
-``
+```
 reference
 <br/>
 [Bun.sh](https://bun.sh/)
