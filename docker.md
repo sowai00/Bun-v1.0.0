@@ -25,6 +25,10 @@ docker run <username>/<imagename>
 ```
 
 ```
-docker compse up
+docker compose up
+```
+
+```
+docker-compose down --rmi all
 ```
 https://hub.docker.com/
