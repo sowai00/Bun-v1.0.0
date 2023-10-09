@@ -19,4 +19,8 @@ run the docker
 ```
 docker run <username>/<imagename>
 ```
+
+```
+docker compse up
+```
 https://hub.docker.com/
