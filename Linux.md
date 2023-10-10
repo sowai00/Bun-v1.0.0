@@ -27,5 +27,25 @@ remove package
 apt remove <packagename>
 ```
 
-file system
-/bin /root /boot /lib /dev /var /etc /proc /home
+file system \
+/bin /root /boot /lib /dev /var /etc /proc /home \
+open a new file
+```
+mkdir <filename>
+```
+open an object
+```
+touch <objectname>
+```
+move file
+```
+mv <filename> <path>
+```
+remove object* as all the object names with file
+```
+rm <objectname*>
+```
+remove file
+```
+rm -r <filename*>
+```
