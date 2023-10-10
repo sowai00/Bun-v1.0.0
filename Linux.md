@@ -1,4 +1,4 @@
-ubuntu
+Ubuntu
 ```
 echo hello
 ```
@@ -22,3 +22,10 @@ apt download package on list eg. nano
 ```
 apt install <packagename>
 ```
+remove package
+```
+apt remove <packagename>
+```
+
+file system
+/bin /root /boot /lib /dev /var /etc /proc /home
