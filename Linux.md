@@ -49,3 +49,11 @@ remove file
 ```
 rm -r <filename*>
 ```
+show sample txt
+```
+cat <path/filename/object.txt>
+```
+show more txt
+```
+more <path/filename/object.txt>
+```
