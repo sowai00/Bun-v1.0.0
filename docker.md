@@ -27,9 +27,9 @@ https://hub.docker.com/
 ```
 docker run <username>/<imagename>
 ```
-
+eg. vim and copy the image to mongo.yaml
 ```
-docker compose up <OPTIONS> <SERVICE...>
+docker-compose -f mongo.yaml up 
 ```
 
 ```
