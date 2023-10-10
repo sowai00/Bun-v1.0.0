@@ -14,18 +14,22 @@ list docker images
 ```
 docker image ls
 ```
-upload to dockerhub
-download to another environment
+
+download the environment with docker hub
+
 ```
 docker pull <username>/<imagename>
 ```
-run the docker
+
+run the docker with docker hub
+https://hub.docker.com/
+
 ```
 docker run <username>/<imagename>
 ```
 
 ```
-docker compose up
+docker compose up <OPTIONS> <SERVICE...>
 ```
 
 ```
