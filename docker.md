@@ -16,11 +16,17 @@ docker image ls
 ```
 
 download the environment with docker hub
-
 ```
 docker pull <username>/<imagename>
 ```
-
+remove all container
+```
+docker container rm -f $(docker container ls -aq)
+```
+remove all images
+```
+docker image rm -f $(docker image ls -aq)
+```
 run the docker with docker hub
 https://hub.docker.com/
 
