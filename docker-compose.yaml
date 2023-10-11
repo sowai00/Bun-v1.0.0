@@ -1,16 +1,22 @@
-# yaml 配置实例
-version: '3'
+version: '3.8'
+
 services:
   web:
-    build: .
+    build: ./frontend
     ports:
-   - "5000:5000"
+     - 3000:3000
+  api:
+    build: ./backend
+    ports:
+    - 3001:3001
+    environment:
+     DB_URL: mongodb://db/vidly
+  db:
+    image: mongo:4.0-xenial
+    ports:
+    - 27017:27017
     volumes:
-   - .:/code
-    - logvolume01:/var/log
-    links:
-   - redis
-  redis:
-    image: redis
+    - vidly:/dtata/db
+
 volumes:
-  logvolume01: {}
+  vidly:
