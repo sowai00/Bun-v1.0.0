@@ -16,7 +16,7 @@ services:
     ports:
     - 27017:27017
     volumes:
-    - vidly:/dtata/db
+    - vidly:/data/db
 
 volumes:
   vidly:

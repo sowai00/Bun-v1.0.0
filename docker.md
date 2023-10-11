@@ -1,4 +1,4 @@
-download docker
+## docker
 
 https://www.docker.com/products/docker-desktop/
 
@@ -32,6 +32,12 @@ https://hub.docker.com/
 
 ```
 docker run <username>/<imagename>
+```
+## docker-compose
+
+docker-compose build the project
+```
+docker-compose build
 ```
 eg. vim and copy the image to mongo.yaml
 ```
