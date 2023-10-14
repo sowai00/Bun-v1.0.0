@@ -57,3 +57,7 @@ show more txt
 ```
 more <path/filename/object.txt>
 ```
+check the ip and host
+```
+cat /etc/hosts
+```
