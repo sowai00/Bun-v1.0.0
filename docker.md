@@ -36,6 +36,10 @@ run the docker with docker hub
 ```
 docker run <username>/<imagename>
 ```
+run the image name myng with nginx on port 80
+```
+docker run -d -p80:80 --name myng nginx
+```
 ## docker-compose
 docker-compose list
 ```
