@@ -40,6 +40,15 @@ run the image name myng with nginx on port 80
 ```
 docker run -d -p80:80 --name myng nginx
 ```
+```
+docker exec -it <link> sh
+```
+```
+apk add curl
+```
+```
+curl <imagename>
+```
 ## docker-compose
 docker-compose list
 ```
