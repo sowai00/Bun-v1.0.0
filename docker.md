@@ -49,6 +49,10 @@ apk add curl
 ```
 curl <imagename>
 ```
+check the ip and host
+```
+cat /etc/hosts
+```
 ## docker-compose
 docker-compose list
 ```
