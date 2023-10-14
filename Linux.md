@@ -1,4 +1,4 @@
-Ubuntu
+## Ubuntu
 ```
 echo hello
 ```
@@ -27,7 +27,7 @@ remove package
 apt remove <packagename>
 ```
 
-file system \
+### file system \
 /bin /root /boot /lib /dev /var /etc /proc /home \
 open a new file
 ```
@@ -60,4 +60,13 @@ more <path/filename/object.txt>
 check the ip and host
 ```
 cat /etc/hosts
+```
+## VIM
+open a new file and go to the file
+```
+vim <filename>
+```
+quit the vim mode
+```
+:wq
 ```
